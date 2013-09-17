@@ -1,0 +1,11 @@
+{
+  "name": "bxSlider",
+  "description": "The fully-loaded, responsive jQuery content slider",
+  "author": "Ming-Gih Lam <dcpedit@hotmail.com>",
+  "dependencies": {
+    "yuicompressor": "2.4.8"
+  },
+  "scripts": {
+    "postinstall": "java -jar ./node_modules/yuicompressor/build/yuicompressor-2.4.8.jar -o jquery.bxslider.min.js jquery.bxslider.js"
+  }
+}
